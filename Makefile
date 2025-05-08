@@ -34,7 +34,6 @@ container-image/build:
 PHONY:=container-image/delete
 container-image/delete:
 	- ${CONTAINER_RUNTIME} image rm ${BRUTEFORCE_WALLET_IMAGE_FULLY_QUALIFIED}
-	- ${CONTAINER_RUNTIME} image rm ${BASE_IMAGE_FULL}
 
 # PUSH CONTAINER IMAGE
 # ==============================================================================
