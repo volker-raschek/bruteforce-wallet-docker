@@ -68,11 +68,6 @@ MD022:
   # Blank lines below heading
   lines_below: 1
 
-# MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
-MD024:
-  # Only check sibling headings
-  siblings_only: true
-
 # MD025/single-title/single-h1 - Multiple top-level headings in the same document
 MD025:
   # Heading level
