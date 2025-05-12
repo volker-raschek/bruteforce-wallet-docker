@@ -2,9 +2,9 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/volkerraschek/bruteforce-wallet)](https://hub.docker.com/r/volkerraschek/bruteforce-wallet)
 
-This project contains all sources to build the container image `docker.io/volkerraschek/bruteforce-wallet`. The primary
-goal of this project is to package the binary `bruteforce-wallet` as container image to provide the functionally for
-CI/CD workflows. The source code of the binary can be found in the upstream project of
+This project contains all sources to build the container image `git.cryptic.systems/volker.raschek/bruteforce-wallet`.
+The primary goal of this project is to package the binary `bruteforce-wallet` as container image to provide the
+functionally for CI/CD workflows. The source code of the binary can be found in the upstream project of
 [bruteforce-wallet](https://github.com/glv2/bruteforce-wallet).
 
 ## Usage
