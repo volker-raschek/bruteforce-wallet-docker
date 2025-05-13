@@ -1,5 +1,5 @@
 # BRUTEFORCE_WALLET_VERSION
-# Only required to install a specifiy version
+# Only required to install a specify version
 BRUTEFORCE_WALLET_VERSION?=1.5.4 # renovate: datasource=github-releases depName=glv2/bruteforce-wallet
 
 # CONTAINER_RUNTIME
