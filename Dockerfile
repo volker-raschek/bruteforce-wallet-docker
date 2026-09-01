@@ -1,4 +1,4 @@
-FROM docker.io/library/ubuntu:24.04 AS build
+FROM docker.io/library/ubuntu:26.04 AS build
 
 ARG BRUTEFORCE_WALLET_VERSION
 
@@ -20,7 +20,7 @@ RUN cd /src && \
     make install DESTDIR=/cache && \
     rm -rf /src
 
-FROM docker.io/library/ubuntu:24.04
+FROM docker.io/library/ubuntu:26.04
 
 COPY --from=build /cache /
 
